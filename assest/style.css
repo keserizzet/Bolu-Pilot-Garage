@@ -28,8 +28,8 @@ body{
             justify-content: center;
             align-items: center;
             background-color: #252F3A;
-            height: 98%;
-            border-radius: 30px;
+            height: 100%;
+            border-radius: 0;
             width: 100%;
         }
         .logo{
@@ -62,6 +62,7 @@ body{
         }
         .inner{
             .container{
+                background-color: transparent;
                 .inning{
                     ul{
                         display: flex;
