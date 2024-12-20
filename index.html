@@ -54,20 +54,5 @@
             </div>
         </div>
     </div>
-    <script>
-        // Kullanıcıyı otomatik olarak yeni adrese yönlendir
-        window.location.href = "https://pilotgarage.github.io/Bolu-Pilot-Garage/";
-    
-        // Alternatif: Bağlantıları dinamik olarak değiştir
-        document.addEventListener("DOMContentLoaded", function () {
-            const links = document.querySelectorAll("a");
-            links.forEach(link => {
-                const currentUrl = link.href;
-                if (currentUrl.includes("keserizzet.github.io")) {
-                    link.href = currentUrl.replace("keserizzet.github.io", "pilotgarage.github.io");
-                }
-            });
-        });
-    </script>
 </body>
 </html>
